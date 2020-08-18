@@ -14,7 +14,9 @@ body {
 	line-height: 1.5em;
 }
 header {
-	background-color: rgb(255,182,193);
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
 }
 address {
 	font-style: normal;
@@ -28,18 +30,45 @@ h3 {
 	font-weight: bold;
 	font-size: 17px;
 }
-
 .intro {
 	font-size: 17px;
 	width: 510px;
 }
-nav a {
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
 	color: inherit;
 	font-weight: bolder;
 	font-size: 18px;
 }
 a {
 	text-decoration: none;
+}
+#one {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+.first {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+.second {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+.third {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+.fourth {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
 }
 .hero {
 	width: 100%
@@ -54,6 +83,12 @@ h4 {
 }
 
 footer {
-	background-color: #333333;
-	color: white;
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+div {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
