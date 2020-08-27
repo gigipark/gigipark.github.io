@@ -1,17 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 h1 {
 	color: black;
 	font-family: 'Poiret One', cursive;
 	font-size: 50px;
+	padding: .5px 0;
 }
 body {
 	background-color: #F2F2F0;
 	font-family: 'Roboto', sans-serif;
-	margin: 2em;
 	font-size: 16px;
 	line-height: 1.5em;
+	/*margin: 2em;*/
 }
 header {
 	background-color: rgb(255,182,193);
@@ -19,10 +24,12 @@ header {
 address {
 	font-style: normal;
 	font-weight: bold;
+	padding: 10px 0;
 }
 h3 {
-	font-size: 27px;
 	font-family: 'Poiret One', cursive;
+	font-size: 27px;
+	padding: 30px 0;
 }
 .calendar {
 	font-weight: bold;
@@ -30,15 +37,47 @@ h3 {
 }
 .intro {
 	font-size: 17px;
-	width: 510px;
+	/*width: 510px;*/
+}
+nav {
+	float: left;
 }
 nav a {
+	text-transform: uppercase;
 	color: inherit;
 	font-weight: bolder;
-	font-size: 18px;
+	font-size: 17px;
+	padding: 10px;
 }
 a {
 	text-decoration: none;
+}
+#two_column {
+	background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+#left {
+	background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+#right {
+	background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
+.clearfix:after {
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 .hero {
 	width: 100%
@@ -51,7 +90,6 @@ h4 {
 	font-weight: bold;
 	font-size: 18px;
 }
-
 footer {
 	background-color: #333333;
 	color: white;
