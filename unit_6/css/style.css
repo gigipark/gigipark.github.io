@@ -16,7 +16,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	line-height: 1.5em;
-	/*margin: 2em;*/
+	margin: 2em;
 }
 header {
 	background-color: rgb(255,182,193);
@@ -29,47 +29,47 @@ address {
 h3 {
 	font-family: 'Poiret One', cursive;
 	font-size: 27px;
-	padding: 30px 0;
+	padding: 30px 0 0;
 }
+
 .calendar {
 	font-weight: bold;
 	font-size: 17px;
+	float: right;
+	clear: both;
 }
 .intro {
 	font-size: 17px;
-	/*width: 510px;*/
+	padding: 15px 0;
 }
-nav {
-	float: left;
-}
+
 nav a {
 	text-transform: uppercase;
 	color: inherit;
 	font-weight: bolder;
 	font-size: 17px;
-	padding: 10px;
+	padding: 13px;
+	float: right;
+	background: #E75480;
 }
 a {
 	text-decoration: none;
 }
-#two_column {
+/*#two_column {
 	background-color: #FFB7CF;
     border: 1px black solid;
-    padding: 20px;
+    padding: 20px;*/
 }
 #left {
-	background-color: violet;
-    border: 1px black solid;
-    padding: 20px;
     float: left;
     width: 30%;
+    padding: 10px;
 }
 #right {
-	background-color: pink;
-    border: 1px black solid;
-    padding: 20px;
+    /*padding: 10px;*/
     float: right;
-    width: 62%;
+    padding: 10px;
+    width: 50%;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -79,11 +79,22 @@ a {
     clear: both;
     height: 0;
 }
+.recital {
+	float: left;
+	width: 50%;
+}
+.partnering {
+	float: right;
+	width: 50%;
+}
 .hero {
 	width: 100%
 }
+.four {
+	padding: 15px;
+}
 .adult {
-	width: 80%;
+	width: 50%;
 }
 h4 {
 	color: black;
@@ -93,4 +104,5 @@ h4 {
 footer {
 	background-color: #333333;
 	color: white;
+	clear: both;
 }
