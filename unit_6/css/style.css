@@ -9,13 +9,12 @@ h1 {
 	color: black;
 	font-family: 'Poiret One', cursive;
 	font-size: 50px;
-	padding: .5px 0;
 }
 body {
 	background-color: #F2F2F0;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	line-height: 1.5em;
+	line-height: 1.5;
 	margin: 2em;
 }
 header {
@@ -24,52 +23,49 @@ header {
 address {
 	font-style: normal;
 	font-weight: bold;
-	padding: 10px 0;
+	font-size: 17px;
+	padding: 20px 0 0 0;
 }
 h3 {
 	font-family: 'Poiret One', cursive;
-	font-size: 27px;
-	padding: 30px 0 0;
+	font-size: 28px;
+	padding: .3px 0;
 }
-
 .calendar {
 	font-weight: bold;
 	font-size: 17px;
-	float: right;
-	clear: both;
+	padding: 10px 0 0 0;
 }
 .intro {
 	font-size: 17px;
-	padding: 15px 0;
+	width: 35em;
+	margin: 2em auto;
+	text-align: center;
 }
 
 nav a {
 	text-transform: uppercase;
 	color: inherit;
 	font-weight: bolder;
-	font-size: 17px;
-	padding: 13px;
-	float: right;
+	padding: 10px;
+	float: left;
+	width: 25%;
 	background: #E75480;
+	border: 2px solid pink;
+	text-align: center;
 }
 a {
 	text-decoration: none;
 }
-/*#two_column {
-	background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;*/
-}
+
 #left {
     float: left;
-    width: 30%;
-    padding: 10px;
+    width: 55%;
 }
 #right {
-    /*padding: 10px;*/
     float: right;
-    padding: 10px;
-    width: 50%;
+    width: 43%;
+    padding: 2px;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -81,7 +77,8 @@ a {
 }
 .recital {
 	float: left;
-	width: 50%;
+	width: 45%;
+	padding: 5px;
 }
 .partnering {
 	float: right;
@@ -93,11 +90,17 @@ a {
 .four {
 	padding: 15px;
 }
+
 .adult {
+	float: left;
+	width: 50%;
+}
+
+.last {
+	float: right;
 	width: 50%;
 }
 h4 {
-	color: black;
 	font-weight: bold;
 	font-size: 18px;
 }
