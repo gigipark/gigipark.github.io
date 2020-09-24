@@ -8,14 +8,14 @@
 h1 {
 	color: black;
 	font-family: 'Poiret One', cursive;
-	font-size: 50px;
-	line-height: 25px;
+	font-size: 3.75em;
+	line-height: 1.5em;
 	padding-bottom: .25em;
 }
 body {
 	background-color: #F2F2F0;
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 1.5;
 	margin: 2em;
 }
@@ -25,17 +25,17 @@ header {
 address {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 17px;
+	font-size: 1em;
 	padding: 20px 0 0 0;
 }
 h3 {
 	font-family: 'Poiret One', cursive;
-	font-size: 28px;
+	font-size: 1.5em;
 	padding: .3px 0;
 }
 .calendar {
 	font-weight: bold;
-	font-size: 17px;
+	font-size: 1em;
 	padding: 10px 0 0 0;
 }
 .one {
@@ -45,7 +45,7 @@ h3 {
 	height: 100vh;
 }
 .intro {
-	font-size: 17px;
+	font-size: 1em;
 	width: 35em;
 	padding: 15px 0;
 	margin: 2em auto;
